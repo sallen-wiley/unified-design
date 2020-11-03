@@ -13,9 +13,6 @@
         <loc>https://sallen-wiley.github.io/unified-design/sibling-sites/news-home.html</loc>
     </url>
     <url>
-        <loc>https://sallen-wiley.github.io/unified-design/test/home-1.html</loc>
-    </url>
-    <url>
         <loc>https://sallen-wiley.github.io/unified-design/unified-design/journals--article.html</loc>
     </url>
     <url>
@@ -25,7 +22,10 @@
         <loc>https://sallen-wiley.github.io/unified-design/unified-design/journals--journal.html</loc>
     </url>
     <url>
-        <loc>https://sallen-wiley.github.io/unified-design/unified-design/news-home.html</loc>
+        <loc>https://sallen-wiley.github.io/unified-design/unified-design/news--home.html</loc>
+    </url>
+    <url>
+        <loc>https://sallen-wiley.github.io/unified-design/unified-design/spectrabase-home.html</loc>
     </url>
     <url>
         <loc>https://sallen-wiley.github.io/unified-design/was/home.html</loc>
