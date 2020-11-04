@@ -38,13 +38,8 @@
         <div class="text-white bg-primary collapse show" id="nav-journals">
             <div class="container">
                 <div class="d-flex justify-content-between">
-                    <div class="d-inline-flex ml-n2">
-                        <div class="dropdown"><button class="btn btn-primary btn-sm dropdown-toggle px-2 text-reset" data-toggle="dropdown" aria-expanded="false" type="button">All Journals</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                        </div>
-                        <div class="dropdown"><button class="btn btn-primary btn-sm dropdown-toggle px-2 text-reset" data-toggle="dropdown" aria-expanded="false" type="button">Topics</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                        </div>
+                    <div class="d-inline-flex ml-n2"><button class="btn btn-primary btn-sm d-inline-flex align-items-center" type="button" data-toggle="collapse" data-target="#dropdown-journals">All journals<span class="mdi mdi-menu-up mdi-sm chevron"></span></button><button class="btn btn-primary btn-sm d-inline-flex align-items-center"
+                            type="button" data-toggle="collapse" data-target="#dropdown-topics">Topics<span class="mdi mdi-menu-up mdi-sm chevron"></span></button>
                         <div class="dropdown"><button class="btn btn-primary btn-sm dropdown-toggle px-2 text-reset" data-toggle="dropdown" aria-expanded="false" type="button">Author Resources</button>
                             <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                         </div>
@@ -59,6 +54,323 @@
             </div>
         </div>
         </div>
+        <div class="text-white d-none d-lg-block overflow-auto momentum-scrolling" id="global-header-dropdowns">
+            <div class="bg-secondary collapse" id="dropdown-journals" data-parent="#global-header-dropdowns">
+                <div class="py-3">
+                    <div class="container">
+                        <div style="column-count: 2;">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1"><a class="text-reset" href="#">Analytical Science Advances</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Biomedical Chromatography</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Chirality</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Drug Testing and Analysis</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Electroanalysis</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Electrophoresis</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Journal of Applied Toxicology</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Journal of Chemometrics</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Journal of Labelled Compounds and Radiopharmaceuticals</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Journal of Mass Spectrometry</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Journal of Molecular Recognition</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Journal of Physical Organic Chemistry</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Journal of Separation Science</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Journal of Raman Spectroscopy</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Luminescence</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Magnetic Resonance in Chemistry</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Mass Spectrometry Reviews</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Microscopy Research and Technique</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">NMR in Biomedicine</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Proteomics</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Phytochemical Analysis</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Rapid Communications in Mass Spectrometry</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Separation Science Plus</a>&nbsp;&nbsp;</li>
+                                <li class="mb-1"><a class="text-reset" href="#">Surface and Interface Analysis</a>&nbsp;&nbsp;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-secondary collapse" id="dropdown-topics" data-parent="#global-header-dropdowns">
+                <div class="py-3">
+                    <div class="container">
+                        <div style="column-count: 2;">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><a class="text-reset h5" href="#">Microscopy</a>&nbsp;&nbsp;
+                                    <ul class="list-unstyled mb-0 ml-2 mt-1">
+                                        <li class="mb-1"><a class="text-reset" href="#">Electron &amp; Ion Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Image Processing</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Light Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Scanning Probe Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">X-Ray Analysis</a>&nbsp;&nbsp;</li>
+                                    </ul>
+                                </li>
+                                <li class="d-inline-block mb-2 w-100"><a class="text-reset h5" href="#">Microscopy</a>&nbsp;&nbsp;
+                                    <ul class="list-unstyled mb-0 ml-2 mt-1">
+                                        <li class="mb-1"><a class="text-reset" href="#">Electron &amp; Ion Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Image Processing</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Light Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Scanning Probe Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">X-Ray Analysis</a>&nbsp;&nbsp;</li>
+                                    </ul>
+                                </li>
+                                <li class="d-inline-block mb-2 w-100"><a class="text-reset h5" href="#">Microscopy</a>&nbsp;&nbsp;
+                                    <ul class="list-unstyled mb-0 ml-2 mt-1">
+                                        <li class="mb-1"><a class="text-reset" href="#">Electron &amp; Ion Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Image Processing</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Light Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Scanning Probe Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">X-Ray Analysis</a>&nbsp;&nbsp;</li>
+                                    </ul>
+                                </li>
+                                <li class="mb-2"><a class="text-reset h5" href="#">Microscopy</a>&nbsp;&nbsp;
+                                    <ul class="list-unstyled mb-0 ml-2 mt-1">
+                                        <li class="mb-1"><a class="text-reset" href="#">Electron &amp; Ion Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Image Processing</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Light Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Scanning Probe Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">X-Ray Analysis</a>&nbsp;&nbsp;</li>
+                                    </ul>
+                                </li>
+                                <li class="mb-2"><a class="text-reset h5" href="#">Microscopy</a>&nbsp;&nbsp;
+                                    <ul class="list-unstyled mb-0 ml-2 mt-1">
+                                        <li class="mb-1"><a class="text-reset" href="#">Electron &amp; Ion Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Image Processing</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Light Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">Scanning Probe Microscopy</a>&nbsp;&nbsp;</li>
+                                        <li class="mb-1"><a class="text-reset" href="#">X-Ray Analysis</a>&nbsp;&nbsp;</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dropdown-micro" class="bg-micro collapse bg-icon bg-icon--micro" data-parent="#global-header-dropdowns">
+                <div class="py-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4 border-md-right">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><span class="mdi mdi-chevron-right mr-1"></span><span>Electron &amp; Ion Microscopy</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><span class="mdi mdi-chevron-right mr-1"></span><span>Image Processing</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="/subjects/microscopy/light-microscopy.html"><span class="mdi mdi-chevron-right mr-1"></span><span>Light Microscopy</span></a></li>
+                                    <li
+                                        class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><span class="mdi mdi-chevron-right mr-1"></span><span>Scanning Probe Microscopy</span></a></li>
+                                        <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><span class="mdi mdi-chevron-right mr-1"></span><span>X-Ray Analysis</span></a></li>
+                                        <li class="my-4 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="/subjects/microscopy.html"><span class="mdi mdi-chevron-right mr-1"></span><span>Microscopy home</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-8">
+                                <h2 class="serif">Latest Microscopy news</h2>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/Wj1D-qiOseE/850x400"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">This is the title of the article and it is long enough to wrap over to more than two lines</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/gKUC4TMhOiY/500x300"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">Erat id est filio at dui galliae hac ii ut</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center text-md-right"><button class="btn btn-outline-light btn-sm" type="button">View all Microscopy news</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dropdown-spectro" class="bg-spectro collapse bg-icon bg-icon--spectro" data-parent="#global-header-dropdowns">
+                <div class="py-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4 border-md-right">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Atomic</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>IR</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>MRS</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Mass Spectroscopy</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>NMR Spectroscopy</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Raman</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>UV</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>X-Ray</span></a></li>
+                                    <li class="my-4 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Spectroscopy home</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-8">
+                                <h2 class="serif">Latest Spectroscopy news</h2>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/Wj1D-qiOseE/850x400"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">This is the title of the article and it is long enough to wrap over to more than two lines</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/gKUC4TMhOiY/500x300"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">Erat id est filio at dui galliae hac ii ut</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center text-md-right"><button class="btn btn-outline-light btn-sm" type="button">View all Spectroscopy news</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dropdown-sepsci" class="bg-sepsci collapse bg-icon bg-icon--sepsci" data-parent="#global-header-dropdowns">
+                <div class="py-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4 border-md-right">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Detectors</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Electrophoresis</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>GC (Chromatography)</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>LC (Chromatography)</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Sample Preparation</span></a></li>
+                                    <li class="my-4 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Separation Science home</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-8">
+                                <h2 class="serif">Latest Separation Science news</h2>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/Wj1D-qiOseE/850x400"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">This is the title of the article and it is long enough to wrap over to more than two lines</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/gKUC4TMhOiY/500x300"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">Erat id est filio at dui galliae hac ii ut</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center text-md-right"><button class="btn btn-outline-light btn-sm" type="button">View all Spectroscopy news</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dropdown-equip" class="bg-equip collapse bg-icon bg-icon--equip" data-parent="#global-header-dropdowns">
+                <div class="py-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4 border-md-right">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Centrifuges</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Disposables</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Furniture</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Heating &amp; Cooling</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Clean &amp; Safety Benches</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Scaling</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Shakers &amp; Stirrers</span></a></li>
+                                    <li class="my-4 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Equipment home</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-8">
+                                <h2 class="serif">Latest Equipment news</h2>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/Wj1D-qiOseE/850x400"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">This is the title of the article and it is long enough to wrap over to more than two lines</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/gKUC4TMhOiY/500x300"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">Erat id est filio at dui galliae hac ii ut</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center text-md-right"><button class="btn btn-outline-light btn-sm" type="button">View all Equipment news</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dropdown-labauto" class="bg-labauto collapse bg-icon bg-icon--labauto" data-parent="#global-header-dropdowns">
+                <div class="py-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4 border-md-right">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Chemometrics &amp; Informatics</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Liquid Handling</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Robots</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Sample Storage and Handling</span></a></li>
+                                    <li class="mb-2 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Software</span></a></li>
+                                    <li class="my-4 h5"><a class="d-inline-flex justify-content-start align-items-center text-reset text-decoration-none" href="#"><i class="material-icons">chevron_right</i><span>Lab Automation home</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-8">
+                                <h2 class="serif">Latest Lab Automation news</h2>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/Wj1D-qiOseE/850x400"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">This is the title of the article and it is long enough to wrap over to more than two lines</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex flex-column mb-2">
+                                            <div class="mr-lg-2 mb-3 w-100 h-100" style="max-height: 150px;"><img class="img-fluid crop" src="//source.unsplash.com/gKUC4TMhOiY/500x300"></div>
+                                            <div>
+                                                <div class="mb-4">
+                                                    <h3><a class="text-reset text-decoration-none short-underline font-weight-light" href="#" style="font-weight: inherit;">Erat id est filio at dui galliae hac ii ut</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center text-md-right"><button class="btn btn-outline-light btn-sm" type="button">View all Lab Automation news</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         <section class="bg-light py-1">
             <div class="d-none justify-content-center align-items-center"><img class="img-fluid d-block" src="https://via.placeholder.com/300x50?text=300x50+small+mobile+leaderboard"></div>
@@ -68,42 +380,102 @@
             <div class="d-none d-lg-flex d-xl-none justify-content-center align-items-center"><img class="img-fluid d-block" src="https://via.placeholder.com/970x90?text=970x90+Large+Leaderboard"></div>
             <div class="d-none d-xl-flex justify-content-center align-items-center"><img class="img-fluid d-block" src="../assets/img/ads/970x250_Billboard.jpg"></div>
         </section>
-        <div class="text-white bg-secondary mt-4">
-            <div class="container">
-                <div class="d-flex justify-content-between">
-                    <div class="d-inline-flex">
-                        <div class="mt-n4" style="background: #050b23;"><img src="../assets/img/logos/JLCR-banner.jpg" style="mix-blend-mode: lighten;" height="55px"></div><button class="btn btn-link btn-sm text-reset" type="button">Home</button>
-                        <div class="dropdown"><button class="btn btn-link btn-sm dropdown-toggle px-2 h-100 text-reset" data-toggle="dropdown" aria-expanded="false" type="button">Browse</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+        <div>
+            <section id="journal-header" class="py-3 border-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8">
+                            <section id="journal-branding"><img class="img-fluid mb-2" src="../assets/img/logos/JLCR-banner.jpg"></section>
+                            <section id="journal-metadata">
+                                <ul class="list-unstyled">
+                                    <li><small><span class="text-muted">Edited By:&nbsp;</span>John Smith</small></li>
+                                    <li><small><span class="text-muted">Impact Factor:&nbsp;</span>1.234</small></li>
+                                    <li><small><span class="text-muted">ISI Journal Citation Reports @ Ranking 2016:&nbsp;</span>48/96 (Business, Finance); 23/96 (Architecture and Planning); 2/56 (Composite Materials)</small></li>
+                                    <li><small><span class="text-muted">Online ISSN:&nbsp;</span>1234-5678</small></li>
+                                    <li><small><span class="text-muted">Copyright © 1999-2018&nbsp;<a href="http://www.wiley.com/">John Wiley &amp; Sons, Inc</a>. All rights reserved<br></span></small></li>
+                                </ul>
+                            </section>
                         </div>
-                        <div class="dropdown"><button class="btn btn-link btn-sm dropdown-toggle px-2 h-100 text-reset" data-toggle="dropdown" aria-expanded="false" type="button">Contribute</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                        </div>
-                        <div class="dropdown"><button class="btn btn-link btn-sm dropdown-toggle px-2 h-100 text-reset" data-toggle="dropdown" aria-expanded="false" type="button">About</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                        <div class="col-12 col-md-4">
+                            <section class="d-flex align-items-start"><img class="img-fluid d-block shadow-sm" style="margin-right:10px;" src="https://via.placeholder.com/100x130?text=COVER">
+                                <div>
+                                    <div><a class="d-flex" href="#">Current Issue<i class="material-icons d-inline-block">chevron_right</i></a></div>
+                                    <ul class="list-unstyled">
+                                        <li>The Full title of the issue</li>
+                                        <li><small>Volume 54, Issue 2<br></small></li>
+                                        <li><small>March 2018<br></small></li>
+                                    </ul>
+                                </div>
+                            </section>
                         </div>
                     </div>
-                    <div class="text-white d-inline-flex ml-n2" style="background: rgb(92,133,60);"><button class="btn btn-link d-inline-flex align-items-center p-1 text-reset" type="button"><span class="mdi mdi-linkedin mdi-sm"></span></button><button class="btn btn-link d-inline-flex align-items-center p-1 text-reset" type="button"><span class="mdi mdi-facebook mdi-sm"></span></button>
+                </div>
+            </section>
+            <div class="sticky-top publication-nav shadow-sm">
+                <div class="bg-white shadow-sm">
+                    <div class="container">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-lg-none d-inline-flex"><button class="btn btn-primary d-inline-flex p-2 text-decoration-none" data-target="#mobile-journal-menu" data-toggle="collapse" type="button">Journal</button><button class="btn btn-primary d-inline-flex p-2 text-decoration-none"
+                                    data-target="#mobile-journal-articles" data-toggle="collapse" type="button">Articles</button></div>
+                            <div class="d-none d-lg-inline-flex justify-content-end align-items-center"><a class="btn btn-link" role="button" href="#">ABC</a>
+                                <div class="dropdown"><button class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">About</button>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Overview</a><a class="dropdown-item" href="#">Contact</a><a class="dropdown-item" href="#">Editorial Board</a><a class="dropdown-item" href="#">Advertise</a><a class="dropdown-item"
+                                            href="#">Permissions</a></div>
+                                </div>
+                                <div class="dropdown"><button class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Contribute</button>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Author Guidelines</a><a class="dropdown-item" href="#">Open Access</a><a class="dropdown-item" href="#">Submit a Manuscript</a><a class="dropdown-item" href="#">For Referees</a></div>
+                                </div>
+                                <div class="dropdown"><button class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Browse</button>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Early View</a><a class="dropdown-item" href="#">Current Issue</a><a class="dropdown-item" href="#">All Issues</a><a class="dropdown-item" href="#">Virtual Issues</a></div>
+                                </div>
+                            </div>
+                            <div class="d-none d-lg-block"><a class="btn btn-primary d-inline-flex justify-content-center align-items-center p-0 rounded-circle mr-2" role="button" style="width:28px;height:28px;" href="#"><i class="fa fa-instagram"></i></a><a class="btn btn-primary d-inline-flex justify-content-center align-items-center p-0 rounded-circle mr-2"
+                                    role="button" style="width:28px;height:28px;" href="#"><i class="fa fa-facebook"></i></a><a class="btn btn-primary d-inline-flex justify-content-center align-items-center p-0 rounded-circle mr-2" role="button" style="width:28px;height:28px;"
+                                    href="#"><i class="material-icons" style="font-size:18px;">add_alert</i></a><a class="btn btn-primary d-inline-flex justify-content-center align-items-center p-0 rounded-circle" role="button" style="width:28px;height:28px;"
+                                    href="#"><i class="material-icons" style="font-size:18px;">rss_feed</i></a></div>
+                            <div class="d-lg-none"><button class="btn btn-primary d-inline-flex p-2 text-decoration-none" data-target="#mobile-journal-actions" data-toggle="collapse" type="button">Actions</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-primary shadow-sm border-top" style="max-height:75vh;overflow-y:auto;">
+                    <div class="container">
+                        <div id="mobile-journal-menu" class="collapse">
+                            <div class="position-relative py-2"><button class="btn btn-link d-block text-light" type="button">Home</button>
+                                <div class="wol-accordion"><a class="btn btn-link d-flex text-light" data-toggle="collapse" aria-expanded="false" aria-controls="mobile-journal-menu--about" href="#mobile-journal-menu--about" role="button">About<i class="material-icons ml-1">keyboard_arrow_up</i></a>
+                                    <div
+                                        class="collapse bg-light" id="mobile-journal-menu--about"><button class="btn btn-link d-block" type="button">Overview</button><button class="btn btn-link d-block" type="button">Contact</button><button class="btn btn-link d-block" type="button">Editorial Board</button>
+                                        <button
+                                            class="btn btn-link d-block" type="button">Advertise</button><button class="btn btn-link d-block" type="button">Permissions</button></div>
+                            </div>
+                            <div class="wol-accordion"><a class="btn btn-link d-flex text-light" data-toggle="collapse" aria-expanded="false" aria-controls="mobile-journal-menu--contribute" href="#mobile-journal-menu--contribute" role="button">Contribute<i class="material-icons ml-1">keyboard_arrow_up</i></a>
+                                <div
+                                    class="collapse bg-light" id="mobile-journal-menu--contribute"><button class="btn btn-link d-block" type="button">Author Guidelines</button><button class="btn btn-link d-block" type="button">Open Access</button><button class="btn btn-link d-block" type="button">Submit a Manuscript</button>
+                                    <button
+                                        class="btn btn-link d-block" type="button">For Referees</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-journal-articles" class="collapse">
+                    <div class="position-relative py-2"><button class="btn btn-link d-block text-light" type="button">Current Issue</button><button class="btn btn-link d-block text-light" type="button">All Issues</button><button class="btn btn-link d-block text-light" type="button">Accepted Articles</button>
                         <button
-                            class="btn btn-link d-inline-flex align-items-center p-1 text-reset" type="button"><span class="mdi mdi-twitter mdi-sm"></span></button>
+                            class="btn btn-link d-block text-light" type="button">Early View</button>
                     </div>
+                </div>
+                <div id="mobile-journal-actions" class="collapse">
+                    <div class="position-relative py-2"><button class="btn btn-link btn-block d-inline-flex align-items-center text-light" type="button"><i class="material-icons mr-2">library_books</i>Browse free sample issue</button><button class="btn btn-link btn-block d-inline-flex align-items-center text-light"
+                            type="button"><i class="material-icons mr-2">add_alert</i>Get Content Alerts</button><button class="btn btn-link btn-block d-inline-flex align-items-center text-light" type="button"><i class="material-icons mr-2">thumb_up</i>Recommend to a librarian</button>
+                        <button
+                            class="btn btn-link btn-block d-inline-flex align-items-center text-light" type="button"><i class="material-icons mr-2">stars</i>Subscribe to this journal</button>
+                            <hr class="border-light">
+                            <h5 class="text-light">Follow Journal</h5><button class="btn btn-link btn-block d-inline-flex align-items-center text-light" type="button"><i class="material-icons mr-2">add_alert</i>Alert</button><button class="btn btn-link btn-block d-inline-flex align-items-center text-light"
+                                type="button"><i class="material-icons mr-2">rss_feed</i>Most Recent (RSS)</button><button class="btn btn-link btn-block d-inline-flex align-items-center text-light" type="button"><i class="material-icons mr-2">rss_feed</i>Most cited (RSS)</button>
+                            <button
+                                class="btn btn-link btn-block d-inline-flex align-items-center text-light" type="button"><i class="fa fa-facebook mr-2"></i>Facebook</button><button class="btn btn-link btn-block d-inline-flex align-items-center text-light" type="button"><i class="fa fa-instagram mr-2"></i>Instagram</button></div>
                 </div>
             </div>
         </div>
-        <div class="text-white" style="background: #390415;box-shadow: inset 0px 4px 8px rgba(0,0,0,0.25);">
-            <div id="big-drop--all-journals" class="collapse">
-                <div class="container">
-                    <div class="py-2" style="column-count: 2;">
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-1"><a class="text-reset" href="#">Microscopy</a>&nbsp;&nbsp;</li>
-                            <li class="mb-1"><a class="text-reset" href="#">Spectroscopy</a>&nbsp;&nbsp;</li>
-                            <li class="mb-1"><a class="text-reset" href="#">Separation Science</a>&nbsp;&nbsp;</li>
-                            <li class="mb-1"><a class="text-reset" href="#">Equipment</a>&nbsp;&nbsp;</li>
-                            <li class="mb-1"><a class="text-reset" href="#">Lab Automation</a>&nbsp;&nbsp;</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        </div>
         </div>
     </header>
     <div class="d-none menu">
